@@ -205,6 +205,12 @@ module.exports = (robot) ->
     'Get up, stand up (it\'s time for our standup)'
     'Standup time. Get up, humans'
     'Standup time! Now! Go go go!'
+    'Time to learn what Sachin did yesterday. Standup!'
+    'Is CBRIS going to rule the world? Let\'s learn during standup.'
+    ':richard: approves, it is time for standup.'
+    'To standup or to sitdown that is the question'
+    'Kostas is rapping this stadup so gather to hear'
+    'Let\'s hear how many bugs :ahsan: found, just now on stadup'
   ]
   PREPEND_MESSAGE = process.env.HUBOT_STANDUP_PREPEND or ''
   if PREPEND_MESSAGE.length > 0 and PREPEND_MESSAGE.slice(-1) != ' '
